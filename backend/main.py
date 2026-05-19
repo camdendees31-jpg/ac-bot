@@ -18,7 +18,7 @@ from pydantic import BaseModel
 
 # ── Config ────────────────────────────────────────────────────────────────────
 DB_PATH      = os.getenv("DB_PATH", "ac_bot.db")
-INTERNAL_KEY = os.getenv("INTERNAL_KEY", "change-this-secret")  # shared with the bot
+INTERNAL_KEY = os.getenv("INTERNAL_KEY", "mysigmakey123")  # shared with the bot
 
 # ── DB setup ──────────────────────────────────────────────────────────────────
 def get_db():
