@@ -15,7 +15,7 @@ load_dotenv()
 
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 API_BASE      = os.getenv("API_BASE_URL", "http://localhost:8000")   # your Railway backend URL
-INTERNAL_KEY  = os.getenv("INTERNAL_KEY", "change-this-secret")      # must match backend
+INTERNAL_KEY  = os.getenv("INTERNAL_KEY", "mysigmakey123")      # must match backend
 
 # ── Bot setup ─────────────────────────────────────────────────────────────────
 intents = discord.Intents.default()
